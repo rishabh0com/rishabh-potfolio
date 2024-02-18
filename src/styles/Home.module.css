@@ -90,8 +90,8 @@
   color: #ccd6f6;
   margin: 5rem 0 0 0;
   /* border: 2px solid white; */
-  height: 45vh;
-  background-color: rgb(28, 27, 35);
+  height: 50vh;
+  background-color: rgba(28, 27, 35, 0.324);
 }
 .contact > p {
   font-size: 2rem;
@@ -105,6 +105,20 @@
 }
 .contact > p:nth-child(4) {
   color: #bbd0ff;
+}
+
+.linkLogo {
+  /* border: 2px solid white; */
+  font-size: 3rem;
+  width: 40%;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+.linkLogo > a {
+  color: #ccd6f6;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -133,7 +147,9 @@
     flex-direction: column;
   }
   .contact {
-  height: 50vh;
-}
-
+    height: 62vh;
+  }
+  .linkLogo {
+    width: 90%;
+  }
 }

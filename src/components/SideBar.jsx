@@ -4,7 +4,10 @@ import styles from "../styles/Sidebar.module.css";
 const SideBar = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.upperSection}></div>
+      <div className={styles.upperSection}>
+        <div></div>
+        <div></div>
+      </div>
       <div className={styles.lowerSection}>
         <div className={styles.routeSection}>
           <div>
@@ -39,7 +42,7 @@ const SideBar = () => {
           </div>
           <div className={styles.linked}>
             <a
-              href="in/rishabh-tripathi-72a11320b"
+              href="https://www.linkedin.com/in/rishabh-tripathi0703"
               target="_blank"
               className={styles.linkedIn}>
               {" "}

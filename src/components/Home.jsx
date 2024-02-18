@@ -87,6 +87,18 @@ const Home = () => {
         <p>Phone: +91 9026128712</p>
         <p>Email: rishabhtripathi587@gmai.com</p>
         <p>Location: Kanpur (U.P.) , India</p>
+        <div className={styles.linkLogo}>
+          <a href="tel:+919026128712">
+            {" "}
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="mailto:rishabhtripathi587@gmai.com">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/rishabh-tripathi0703" target="blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
       </div>
     </div>
   );

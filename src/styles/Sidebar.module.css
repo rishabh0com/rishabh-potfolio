@@ -7,6 +7,15 @@
 .upperSection {
   /* border: 1px solid red; */
   height: 6%;
+  display: flex;
+  align-items: center;
+}
+.upperSection > div {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #0ac219;
+  margin-left: 1rem;
+  border-radius: 50%;
 }
 .lowerSection {
   /* border: 1px solid blue; */
@@ -38,7 +47,7 @@
   color: #ffffff;
 }
 .insta > i {
-  color: #c118bb;
+  color: #d7094a;
 }
 .linkedIn > i {
   color: #0a66c2;
