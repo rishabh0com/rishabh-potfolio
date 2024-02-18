@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+}
+.mainSection {
+  height: 60vh;
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  padding: 2rem 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.mainleft {
+  /* border: 1px solid white; */
+  width: 49%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showText p {
+  font-family: Robot Mono, monospace;
+  margin: 0;
+}
+.showText p:nth-child(1) {
+  font-size: 3rem;
+}
+.showText p:nth-child(2) {
+  margin-top: 1rem;
+  font-size: 6rem;
+  font-weight: 700;
+}
+.showText p:nth-child(3) {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.mainright {
+  /* border: 1px solid white; */
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blobs {
+  /* border: 2px sloig yellow; */
+  height: 95%;
+  width: 95%;
+}
+.profilePic {
+  background-image: url(../assets/progile.png);
+  width: 70%;
+  height: 90%;
+  margin: auto;
+  margin-top: 1.3rem;
+  background-size: cover;
+  -webkit-background-position: center;
+  background-position: center center;
+  box-shadow: 0 5px 5px 5px rgba(253, 173, 13, 0.2);
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+@keyframes animate {
+  0%,
+  100% {
+    border-radius: 70% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainSection {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+  .mainleft {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+  .mainright {
+    width: 100%;
+    height: 46%;
+  }
+  .blobs {
+    height: 100%;
+    width: 100%;
+  }
+  .profilePic {
+    width: 90%;
+    height: 90%;
+  }
+}
