@@ -19,9 +19,12 @@ const Skills = () => {
         <div>
           <h2>Frontend</h2>
           <div className={styles.spread}>
-            <Skill text={"HTML"} bColor={"#fb5607"} />
-            <Skill text={"CSS"} bColor={"#4361ee"} />
+            <Skill text={"HTML"} bColor={"none"} />
+            {/* #fb5607 */}
+            <Skill text={"CSS"} bColor={"none"} />
+            {/* #4361ee */}
             <Skill text={"Javascript"} bColor={"#ffd500"} />
+            {/* "#ffd500" */}
             <Skill text={"ReactJs"} bColor={"#7bdff2"} />
             <Skill text={"Redux"} bColor={"#8338ec"} />
           </div>
@@ -29,7 +32,8 @@ const Skills = () => {
         <div>
           <h2>Backend</h2>
           <div className={styles.spread}>
-            <Skill text={"NodeJs"} bColor={"#7ae582"} />
+            <Skill text={"NodeJs"} bColor={"none"} />
+            {/* #7ae582 */}
             <Skill text={"ExpressJs"} bColor={"#edf2f4"} />
             <Skill text={"MongoDB"} bColor={"#38b000"} />
           </div>
@@ -38,10 +42,11 @@ const Skills = () => {
           <h2>Tools</h2>
           <div className={styles.spread}>
             <Skill text={"NPM"} bColor={"#e5383b"} />
-            <Skill text={"Git & Github"} bColor={"#dad7cd"} />
+            <Skill text={"Git & Github"} bColor={"none"} />
+            {/* #dad7cd */}
             <Skill text={"Render"} bColor={"#6fffe9"} />
             <Skill text={"Postman"} bColor={"#ff4800"} />
-            <Skill text={"Netlify"} bColor={"#48bfe3"} />
+            <Skill text={"Netlify"} bColor={"#04a29f"} />
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@
   color: whitesmoke;
 
   height: 40vh;
+  margin-bottom: 6rem;
   /* border: 2px solid white; */
 }
 .container h1 {
@@ -48,10 +49,10 @@
 }
 @media (max-width: 768px) {
   .container {
-    height: 80vh;
+    height: 120vh;
   }
-  .container h1 {
-    margin: 6rem 5rem;
+  .container > h1 {
+    margin: 9rem 0 3rem 0;
   }
   .skills {
     flex-direction: column;

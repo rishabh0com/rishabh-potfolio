@@ -4,12 +4,19 @@ import styles from "../styles/Home.module.css";
 import Button from "./Button";
 import About from "./About";
 import Skills from "./Skills";
+import Project from "./Project";
+import masys from "../assets/Macys.png";
+import bestBuy from "../assets/bestBuy.png";
+import weather from "../assets/weather.png";
 
 const Home = () => {
   return (
     <div className={styles.container}>
+      <span id="home"></span>
       {/* Navbar Section */}
-      <Navbar />
+      <div style={{ height: "7rem" }}>
+        <Navbar />
+      </div>
       {/* Main Section */}
       <div className={styles.mainSection}>
         <div className={styles.mainleft}>
@@ -29,7 +36,58 @@ const Home = () => {
       {/* About Section */}
       <About />
       {/* Skills Section */}
-      <Skills />
+      <span id="skills">
+        {" "}
+        <Skills />
+      </span>
+      {/* Project Section */}
+      <span id="projects">
+        <h1>Projects</h1>
+        <div className={styles.projectSection}>
+          <Project
+            techStack={["HTML", "CSS", "Javascript", "Open Weather API"]}
+            title={"Weather Forecast App"}
+            imgSrc={weather}
+          />
+          <Project
+            techStack={[
+              "ReactJs",
+              "NodeJs",
+              "JWT",
+              "Mongo Altas",
+              "Bcrypt",
+              "Login",
+              "Logout",
+              "Cart",
+            ]}
+            title={"Mcay's Ecommerce Clone"}
+            imgSrc={masys}
+            // github={"https://github.com/rishabh0com/server_macysEcommerce"}
+          />
+          <Project
+            techStack={[
+              "ReactJs",
+              "CSS",
+              "Login",
+              "Logout",
+              "LocalStorage",
+              "Cart",
+            ]}
+            title={"Best Buy Clone"}
+            imgSrc={bestBuy}
+            // github={"https://github.com/rishabh0com/bestbuy/tree/main/BestBuyApp"}
+          />
+        </div>
+      </span>
+      <div className={styles.contact}>
+        <h1>Get In Touch</h1>
+        <p>
+          Actively looking for new opportunities, in full-stack web development.
+        </p>
+        <p>Phone: +91 9026128712</p>
+        <p>Email: rishabhtripathi587@gmai.com</p>
+        <p>Location: Kanpur (U.P.) , India</p>
+      </div>
     </div>
   );
 };
