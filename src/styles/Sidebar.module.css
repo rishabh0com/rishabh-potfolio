@@ -52,3 +52,46 @@
 .linkedIn > i {
   color: #0a66c2;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+    height: 95vh;
+    padding: 0;
+  }
+  .upperSection {
+    height: 10%;
+  }
+  .upperSection > div {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 0.5rem;
+  }
+  .lowerSection {
+    height: 90%;
+    padding: 1rem;
+    font-size: 2.5rem;
+    justify-content:start;
+  }
+  .routeSection,
+  .socialSection {
+    height: 45%;
+    margin-left: 4rem;
+  }
+  .routeSection > div,
+  .socialSection > div {
+    margin: 3rem 0;
+  }
+  .github > i,
+  .x > i {
+    font-size: 2.5rem;
+  }
+  .insta > i {
+        font-size: 2.5rem;
+
+  }
+  .linkedIn > i {
+        font-size: 2.5rem;
+
+  }
+}

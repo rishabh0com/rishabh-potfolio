@@ -28,7 +28,7 @@
 }
 .showText p:nth-child(2) {
   margin-top: 1rem;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 700;
 }
 .showText p:nth-child(3) {
@@ -50,9 +50,9 @@
   width: 100%;
 }
 .profilePic {
-  background-image: url(../assets/progile.png);
+  background-image: url(../assets/profile.png);
   width: 70%;
-  height: 90%;
+  height: 100%;
   margin: auto;
   margin-top: 1.3rem;
   background-size: cover;
