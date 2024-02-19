@@ -27,7 +27,7 @@ const Home = () => {
             <Button
               text={"Resume"}
               link={
-                "https://drive.google.com/file/d/14Bp24Or-2feqry__feLOGaPLxy0jU2ta/view?usp=sharing"
+                "https://drive.google.com/file/d/1w-j6-DEdwpYbz11355DvR8r6zPU58Nmg/view?usp=sharing"
               }
             />
           </div>
