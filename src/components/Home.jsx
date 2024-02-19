@@ -70,7 +70,7 @@ const Home = () => {
             title={"Mcay's Ecommerce Clone"}
             imgSrc={masys}
             github={"https://github.com/rishabh0com/server_macysEcommerce"}
-            live={"https://mcays.netlify.app"}
+            live={"https://client-macys-ecommerce.vercel.app"}
           />
           <Project
             techStack={[
