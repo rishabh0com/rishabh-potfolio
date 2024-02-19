@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles/Button.module.css";
 
-const Button = ({ text }) => {
+const Button = ({ text,link }) => {
   return (
-    <button className={styles.container}>
-      {text}
-    </button>
+    <a href={link}>
+      {" "}
+      <button className={styles.container}>{text}</button>
+    </a>
   );
 };
 

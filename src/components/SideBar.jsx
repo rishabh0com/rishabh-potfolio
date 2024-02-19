@@ -2,12 +2,16 @@ import React from "react";
 import styles from "../styles/Sidebar.module.css";
 
 const SideBar = () => {
+    const screen = window.screen.width;
+
   return (
     <div className={styles.container}>
-      <div className={styles.upperSection}>
-        <div></div>
-        <div></div>
-      </div>
+      {screen > 768 && (
+        <div className={styles.upperSection}>
+          <div></div>
+          <div></div>
+        </div>
+      )}
       <div className={styles.lowerSection}>
         <div className={styles.routeSection}>
           <div>

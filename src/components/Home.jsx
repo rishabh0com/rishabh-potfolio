@@ -24,7 +24,12 @@ const Home = () => {
             <p>Hey 👋, I' m</p>
             <p>Rishabh Tripathi</p>
             <p>Full Stack Engineer.</p>
-            <Button text={"Resume"} />
+            <Button
+              text={"Resume"}
+              link={
+                "https://drive.google.com/file/d/14Bp24Or-2feqry__feLOGaPLxy0jU2ta/view?usp=sharing"
+              }
+            />
           </div>
         </div>
         <div className={styles.mainright}>
@@ -48,6 +53,8 @@ const Home = () => {
             techStack={["HTML", "CSS", "Javascript", "Open Weather API"]}
             title={"Weather Forecast App"}
             imgSrc={weather}
+            github={"github.com/rishabh0com/weather_app"}
+            live={"https://weather-forecast-app-0723.netlify.app"}
           />
           <Project
             techStack={[
@@ -62,7 +69,8 @@ const Home = () => {
             ]}
             title={"Mcay's Ecommerce Clone"}
             imgSrc={masys}
-            // github={"https://github.com/rishabh0com/server_macysEcommerce"}
+            github={"https://github.com/rishabh0com/server_macysEcommerce"}
+            live={"https://mcays.netlify.app"}
           />
           <Project
             techStack={[
@@ -75,7 +83,10 @@ const Home = () => {
             ]}
             title={"Best Buy Clone"}
             imgSrc={bestBuy}
-            // github={"https://github.com/rishabh0com/bestbuy/tree/main/BestBuyApp"}
+            github={
+              "https://github.com/rishabh0com/bestbuy/tree/main/BestBuyApp"
+            }
+            live={"https://bestbuy0.netlify.app"}
           />
         </div>
       </span>
@@ -85,7 +96,7 @@ const Home = () => {
           Actively looking for new opportunities, in full-stack web development.
         </p>
         <p>Phone: +91 9026128712</p>
-        <p>Email: rishabhtripathi587@gmai.com</p>
+        <p>Email: rishabhtripathi587@gmail.com</p>
         <p>Location: Kanpur (U.P.) , India</p>
         <div id="contact" className={styles.linkLogo}>
           <a href="tel:+919026128712">
@@ -95,7 +106,9 @@ const Home = () => {
           <a href="mailto:rishabhtripathi587@gmai.com">
             <i class="fa-regular fa-envelope"></i>
           </a>
-          <a href="https://www.linkedin.com/in/rishabh-tripathi0703" target="blank">
+          <a
+            href="https://www.linkedin.com/in/rishabh-tripathi0703"
+            target="blank">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </div>
