@@ -55,9 +55,11 @@
 
 @media (max-width: 768px) {
   .container {
+    margin-top: 6rem;
     width: 80%;
-    height: 95vh;
+    height: 100vh;
     padding: 0;
+    position: fixed;
   }
   .upperSection {
     height: 10%;
