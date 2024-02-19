@@ -87,7 +87,7 @@ const Home = () => {
         <p>Phone: +91 9026128712</p>
         <p>Email: rishabhtripathi587@gmai.com</p>
         <p>Location: Kanpur (U.P.) , India</p>
-        <div className={styles.linkLogo}>
+        <div id="contact" className={styles.linkLogo}>
           <a href="tel:+919026128712">
             {" "}
             <i class="fa-solid fa-phone"></i>

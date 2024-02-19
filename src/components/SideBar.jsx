@@ -26,7 +26,7 @@ const SideBar = () => {
             </a>
           </div>
           <div>
-            <a href="contact">
+            <a href="#contact">
               <i class="fa-solid fa-user"></i> Contact
             </a>
           </div>
