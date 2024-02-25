@@ -3,7 +3,7 @@ import styles from "../styles/Button.module.css";
 
 const Button = ({ text,link }) => {
   return (
-    <a href={link}>
+    <a href={link} target="_blank">
       {" "}
       <button className={styles.container}>{text}</button>
     </a>
