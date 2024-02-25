@@ -21,12 +21,12 @@ const Project = ({ imgSrc, title, techStack,github,live }) => {
       <div className={styles.content}>
         <div className={styles.links}>
           <div>
-            <a className={styles.route} href={github}>
+            <a className={styles.route} href={github} target="_blank">
               <i class="fa-brands fa-github"></i>
             </a>
           </div>
           <div>
-            <a className={styles.routee} href={live}>
+            <a className={styles.routee} href={live} target="_blank">
               <i class="fa-solid fa-up-right-from-square"></i>
             </a>
           </div>

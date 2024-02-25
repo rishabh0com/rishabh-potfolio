@@ -26,6 +26,7 @@ const Home = () => {
             <p>Full Stack Engineer.</p>
             <Button
               text={"Resume"}
+              target={"_blank"}
               link={
                 "https://drive.google.com/file/d/1w-j6-DEdwpYbz11355DvR8r6zPU58Nmg/view?usp=sharing"
               }
