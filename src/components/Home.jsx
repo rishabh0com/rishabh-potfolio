@@ -6,7 +6,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Project from "./Project";
 import masys from "../assets/Macys.png";
-import bestBuy from "../assets/bestBuy.png";
+import jscalc from "../assets/calculator.png";
 import weather from "../assets/weather.png";
 
 const Home = () => {
@@ -50,6 +50,13 @@ const Home = () => {
         <h1>Projects</h1>
         <div className={styles.projectSection}>
           <Project
+            techStack={["HTML", "CSS", "Javascript","DOM"]}
+            title={"JS Calculator"}
+            imgSrc={jscalc}
+            github={"https://github.com/rishabh0com/JS_Calculator"}
+            live={"https://jscalculator0com.netlify.app/"}
+          />
+          <Project
             techStack={["HTML", "CSS", "Javascript", "Open Weather API"]}
             title={"Weather Forecast App"}
             imgSrc={weather}
@@ -71,22 +78,6 @@ const Home = () => {
             imgSrc={masys}
             github={"https://github.com/rishabh0com/server_macysEcommerce"}
             live={"https://client-macys-ecommerce.vercel.app"}
-          />
-          <Project
-            techStack={[
-              "ReactJs",
-              "CSS",
-              "Login",
-              "Logout",
-              "LocalStorage",
-              "Cart",
-            ]}
-            title={"Best Buy Clone"}
-            imgSrc={bestBuy}
-            github={
-              "https://github.com/rishabh0com/bestbuy/tree/main/BestBuyApp"
-            }
-            live={"https://bestbuy0.netlify.app"}
           />
         </div>
       </span>
