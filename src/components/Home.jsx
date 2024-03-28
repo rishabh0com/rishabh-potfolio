@@ -27,7 +27,7 @@ const Home = () => {
             <Button
               text={"Resume"}
               link={
-                "https://drive.google.com/file/d/1w-j6-DEdwpYbz11355DvR8r6zPU58Nmg/view?usp=sharing"
+                "https://drive.google.com/file/d/1-J9mDV6yo_Qq5_lRI8teJRB5rVslZLE9/view?usp=sharing"
               }
             />
           </div>
@@ -50,7 +50,7 @@ const Home = () => {
         <h1>Projects</h1>
         <div className={styles.projectSection}>
           <Project
-            techStack={["HTML", "CSS", "Javascript","DOM"]}
+            techStack={["HTML", "CSS", "Javascript", "DOM"]}
             title={"JS Calculator"}
             imgSrc={jscalc}
             github={"https://github.com/rishabh0com/JS_Calculator"}
@@ -60,7 +60,7 @@ const Home = () => {
             techStack={["HTML", "CSS", "Javascript", "Open Weather API"]}
             title={"Weather Forecast App"}
             imgSrc={weather}
-            github={"github.com/rishabh0com/weather_app"}
+            github={"https://github.com/rishabh0com/weather_app/tree/master"}
             live={"https://weather-forecast-app-0723.netlify.app"}
           />
           <Project
