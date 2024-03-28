@@ -29,6 +29,7 @@ const Home = () => {
               link={
                 "https://drive.google.com/file/d/1-J9mDV6yo_Qq5_lRI8teJRB5rVslZLE9/view?usp=sharing"
               }
+              targetPage={"_blank"}
             />
           </div>
         </div>

@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className={styles.right}>
         {screen > 768 ? (
-          <Button text={`Contact Me `} link={"#contact"} />
+          <Button text={`Contact Me `} link={"#contact"} targetPage={""} />
         ) : (
           <span onClick={handleDisplay} className={styles.hamburger}>
             <i class="fa-solid fa-bars"></i>
