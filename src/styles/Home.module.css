@@ -50,7 +50,9 @@
   width: 100%;
 }
 .profilePic {
-  background-image: url(../assets/profile.png);
+  /* background-image: url(../assets/profile.png); */
+  background: linear-gradient(#fec163,#de4313);
+  background-image: url(../assets/animation2.gif);
   width: 70%;
   height: 100%;
   margin: auto;
