@@ -7,8 +7,7 @@
   /* border: 2px solid yellow; */
   border-radius: 7px;
   border-bottom: 3px solid #fca311;
-    background-color:#e9ecef;
-
+  background-color: #e9ecef;
 }
 .content {
   padding: 0 1.5rem;
@@ -19,16 +18,17 @@
 }
 .imageContainer {
   height: 50%;
+  object-fit: cover;
+
   /* border: 2px solid red; */
   /* border-radius: 7px; */
-
 }
 .poster {
   width: 100%;
   max-height: 100%;
-  /* border-radius: 7px; */
-    border-bottom: 1px solid black;
-
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid black;
 
   /* border: 2px solid blueviolet; */
 }
@@ -73,16 +73,16 @@
     height: 5rem;
     margin: 1rem 0;
   }
-.route i {
-  font-size: 4rem;
-}
-.routee i {
-  font-size: 3rem;
-  text-align: center;
-}
-a{
-  padding: 5rem 0;
-}
+  .route i {
+    font-size: 4rem;
+  }
+  .routee i {
+    font-size: 3rem;
+    text-align: center;
+  }
+  a {
+    padding: 5rem 0;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
