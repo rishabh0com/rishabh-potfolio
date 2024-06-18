@@ -2,7 +2,7 @@
   background-color: #14131aa1;
   height: 6rem;
   margin: 0;
-  width: 80%;
+  width: 80vw;
   display: flex;
   justify-content: space-between;
   /* box-shadow: 0 10px 2px -2px gray; */
@@ -24,6 +24,7 @@
 }
 .right {
   /* border: 2px solid whitesmoke; */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

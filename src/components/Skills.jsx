@@ -21,11 +21,12 @@ const Skills = () => {
           <div className={styles.spread}>
             <Skill text={"HTML"} bColor={"none"} />
             {/* #fb5607 */}
-            <Skill text={"CSS"} bColor={"none"} />
+            <Skill text={"CSS"} bColor={"#3a86ff"} />
             {/* #4361ee */}
             <Skill text={"Javascript"} bColor={"#ffd500"} />
             {/* "#ffd500" */}
             <Skill text={"ReactJs"} bColor={"#7bdff2"} />
+            <Skill text={"Tailwind"} bColor={"#0ea5e9"} />
             <Skill text={"Redux"} bColor={"#8338ec"} />
           </div>
         </div>

@@ -29,7 +29,7 @@
   .para {
     text-overflow: hidden;
     text-wrap: nowrap;
-    overflow-x: scroll;
+    overflow-y: scroll;
     height: 30vh;
   }
 }

@@ -46,7 +46,6 @@ const Project = ({ imgSrc, title, techStack,github,live }) => {
               <Vertical />
               <p
                 style={{
-                  fontSize: "1.2rem",
                   margin: "0",
                   marginRight: "1rem",
                 }}>

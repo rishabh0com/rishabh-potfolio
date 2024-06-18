@@ -1,8 +1,9 @@
 .container {
   color: whitesmoke;
-  height: 50%;
+  /* height: 50%; */
   margin-bottom: 6rem;
   /* border: 2px solid white; */
+  /* background-color: #1c1b23; */
 }
 .container h1 {
   font-size: 3rem;
@@ -11,20 +12,24 @@
 }
 .skills {
   color: #8b8a91;
-
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   height: 90%;
 }
 .skills > div {
   /* border: 1px solid palevioletred; */
-  border-radius: 6px;
+  /* border-radius: 6px;
   height: 80%;
   width: 20%;
   color: rgb(195, 197, 199);
   padding: 1rem;
-  background-color: #1c1b23;
+  background-color: #1c1b23; */
+  border: 5px solid rgb(28, 27, 35);
+
+  
+  padding: 3rem;
+  margin: 2rem;
+  border-radius: 10px;
 }
 .skills h2 {
   font-size: 1.8rem;
@@ -37,9 +42,9 @@
   justify-content: center;
   align-items: center;
   font-size: 1.4rem;
-  padding: 0 0.5rem;
+  padding: 0.5rem 1.5rem;
   margin: 2rem 2rem 0rem 0rem;
-  background-color: #13141a;
+  background-color: #0b090a;
 }
 .spread {
   display: flex;
@@ -47,17 +52,33 @@
   width: 100%;
 }
 @media (max-width: 768px) {
-  .container {
-    height: 120vh;
-  }
   .container > h1 {
     margin: 9rem 0 3rem 0;
   }
   .skills {
     flex-direction: column;
+    align-items: center;
+  }
+  .skills > div {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container > h1 {
+    margin: 9rem 0 3rem 0;
+  }
+  .skills {
+    flex-direction: column;
+    align-items: center;
   }
   .skills > div {
     margin: 1rem 0;
     width: 70%;
+  }
+  .skillContainer {
+    font-size: 3rem;
+      padding: 2rem 1.5rem;
+
   }
 }

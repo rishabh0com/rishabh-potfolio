@@ -16,22 +16,22 @@ const SideBar = () => {
         <div className={styles.routeSection}>
           <div>
             <a href="#home">
-              <i class="fa-solid fa-house"></i> Home
+              <i class="fa-solid fa-house"></i> <span>Home</span>
             </a>
           </div>
           <div>
             <a href="#skills">
-              <i class="fa-solid fa-code"></i> Skills
+              <i class="fa-solid fa-code"></i> <span>Skills</span>
             </a>
           </div>
           <div>
             <a href="#projects">
-              <i class="fa-solid fa-diagram-project"></i> Projects
+              <i class="fa-solid fa-diagram-project"></i> <span>Projects</span>
             </a>
           </div>
           <div>
             <a href="#contact">
-              <i class="fa-solid fa-user"></i> Contact
+              <i class="fa-solid fa-user"></i> <span>Contact</span>
             </a>
           </div>
         </div>
@@ -41,7 +41,7 @@ const SideBar = () => {
               href="https://github.com/rishabh0com"
               target="_blank"
               className={styles.github}>
-              <i class="fa-brands fa-github"></i> Github
+              <i class="fa-brands fa-github"></i> <span>Github</span>
             </a>
           </div>
           <div className={styles.linked}>
@@ -50,7 +50,7 @@ const SideBar = () => {
               target="_blank"
               className={styles.linkedIn}>
               {" "}
-              <i class="fa-brands fa-linkedin"></i> LinkedIn
+              <i class="fa-brands fa-linkedin"></i> <span>LinkedIn</span>
             </a>
           </div>
           <div>
@@ -58,7 +58,7 @@ const SideBar = () => {
               className={styles.insta}
               href="https://www.instagram.com/_rishabh_0703/"
               target="_blank">
-              <i class="fa-brands fa-instagram"></i> Instagram
+              <i class="fa-brands fa-instagram"></i> <span>Instagram</span>
             </a>
           </div>
           <div>
@@ -67,7 +67,7 @@ const SideBar = () => {
               target="_blank"
               className={styles.x}>
               {" "}
-              <i class="fa-brands fa-x-twitter"></i> Twitter
+              <i class="fa-brands fa-x-twitter"></i> <span>Twitter</span>
             </a>
           </div>
         </div>

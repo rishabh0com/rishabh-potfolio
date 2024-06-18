@@ -27,6 +27,7 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: start;
+  align-items: center;
   font-size: 2rem;
 }
 .lowerSection a {
@@ -73,7 +74,7 @@
     height: 90%;
     padding: 1rem;
     font-size: 2.5rem;
-    justify-content:start;
+    justify-content: start;
   }
   .routeSection,
   .socialSection {
@@ -84,16 +85,20 @@
   .socialSection > div {
     margin: 3rem 0;
   }
-  .github > i,
-  .x > i {
+  i {
     font-size: 2.5rem;
   }
-  .insta > i {
-        font-size: 2.5rem;
-
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  span {
+    display: none;
   }
-  .linkedIn > i {
-        font-size: 2.5rem;
-
+  .container {
+    width: 10%;
   }
+    i {
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+
 }

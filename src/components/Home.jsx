@@ -42,12 +42,9 @@ const Home = () => {
       {/* About Section */}
       <About />
       {/* Skills Section */}
-      <span id="skills">
-        {" "}
         <Skills />
-      </span>
       {/* Project Section */}
-      <span id="projects">
+      
         <h1>Projects</h1>
         <div className={styles.projectSection}>
           <Project
@@ -81,7 +78,6 @@ const Home = () => {
             live={"https://client-macys-ecommerce.vercel.app"}
           />
         </div>
-      </span>
       <div className={styles.contact}>
         <h1>Get In Touch</h1>
         <p>
