@@ -42,42 +42,45 @@ const Home = () => {
       {/* About Section */}
       <About />
       {/* Skills Section */}
+      <div id="skills"> </div>
+        {" "}
         <Skills />
+     
       {/* Project Section */}
-      
-        <h1>Projects</h1>
-        <div className={styles.projectSection}>
-          <Project
-            techStack={["HTML", "CSS", "Javascript", "DOM"]}
-            title={"JS Calculator"}
-            imgSrc={jscalc}
-            github={"https://github.com/rishabh0com/JS_Calculator"}
-            live={"https://jscalculator0com.netlify.app/"}
-          />
-          <Project
-            techStack={["HTML", "CSS", "Javascript", "Open Weather API"]}
-            title={"Weather Forecast App"}
-            imgSrc={weather}
-            github={"https://github.com/rishabh0com/weather_app/tree/master"}
-            live={"https://weather-forecast-app-0723.netlify.app"}
-          />
-          <Project
-            techStack={[
-              "ReactJs",
-              "NodeJs",
-              "JWT",
-              "Mongo Altas",
-              "Bcrypt",
-              "Login",
-              "Logout",
-              "Cart",
-            ]}
-            title={"Mcay's Ecommerce Clone"}
-            imgSrc={masys}
-            github={"https://github.com/rishabh0com/server_macysEcommerce"}
-            live={"https://client-macys-ecommerce.vercel.app"}
-          />
-        </div>
+
+      <h1 id="projects">Projects</h1>
+      <div className={styles.projectSection}>
+        <Project
+          techStack={["HTML", "CSS", "Javascript", "DOM"]}
+          title={"JS Calculator"}
+          imgSrc={jscalc}
+          github={"https://github.com/rishabh0com/JS_Calculator"}
+          live={"https://jscalculator0com.netlify.app/"}
+        />
+        <Project
+          techStack={["HTML", "CSS", "Javascript", "Open Weather API"]}
+          title={"Weather Forecast App"}
+          imgSrc={weather}
+          github={"https://github.com/rishabh0com/weather_app/tree/master"}
+          live={"https://weather-forecast-app-0723.netlify.app"}
+        />
+        <Project
+          techStack={[
+            "ReactJs",
+            "NodeJs",
+            "JWT",
+            "Mongo Altas",
+            "Bcrypt",
+            "Login",
+            "Logout",
+            "Cart",
+          ]}
+          title={"Mcay's Ecommerce Clone"}
+          imgSrc={masys}
+          github={"https://github.com/rishabh0com/server_macysEcommerce"}
+          live={"https://client-macys-ecommerce.vercel.app"}
+        />
+      </div>
       <div className={styles.contact}>
         <h1>Get In Touch</h1>
         <p>
