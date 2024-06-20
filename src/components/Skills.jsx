@@ -26,8 +26,9 @@ const Skills = () => {
             <Skill text={"Javascript"} bColor={"#ffd500"} />
             {/* "#ffd500" */}
             <Skill text={"ReactJs"} bColor={"#7bdff2"} />
+            <Skill text={"Redux"} bColor={"none"} />
             <Skill text={"Tailwind"} bColor={"#0ea5e9"} />
-            <Skill text={"Redux"} bColor={"#8338ec"} />
+            <Skill text={"Bootstrap"} bColor={"#712cf9"} />
           </div>
         </div>
         <div>
@@ -48,6 +49,7 @@ const Skills = () => {
             <Skill text={"Render"} bColor={"#6fffe9"} />
             <Skill text={"Postman"} bColor={"#ff4800"} />
             <Skill text={"Netlify"} bColor={"#04a29f"} />
+            <Skill text={"AI Tools"} bColor={"none"} />
           </div>
         </div>
       </div>
