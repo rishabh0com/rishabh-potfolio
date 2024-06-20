@@ -11,7 +11,8 @@
   text-align: center;
 }
 .skills {
-  color: #8b8a91;
+  
+  /* color: #8b8a91; */
   display: flex;
   justify-content: space-evenly;
   height: 90%;
