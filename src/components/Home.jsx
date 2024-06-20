@@ -27,7 +27,7 @@ const Home = () => {
             <Button
               text={"Resume"}
               link={
-                "https://drive.google.com/file/d/1-J9mDV6yo_Qq5_lRI8teJRB5rVslZLE9/view?usp=sharing"
+                "https://drive.google.com/file/d/1pzT_V3rpB2ez6tqj9FzrL8O_G7EPG4G3/view?usp=sharing"
               }
               targetPage={"_blank"}
             />
@@ -42,12 +42,8 @@ const Home = () => {
       {/* About Section */}
       <About />
       {/* Skills Section */}
-      <div id="skills"> </div>
-        {" "}
-        <Skills />
-     
+      <div id="skills"> </div> <Skills />
       {/* Project Section */}
-
       <h1 id="projects">Projects</h1>
       <div className={styles.projectSection}>
         <Project
