@@ -21,7 +21,7 @@ const Navbar = () => {
           <Button text={`Contact Me `} link={"#contact"} targetPage={""} />
         ) : (
           <span onClick={handleDisplay} className={styles.hamburger}>
-            <i class="fa-solid fa-bars"></i>
+            <i class="ri-menu-4-fill"></i>
           </span>
         )}
       </div>
