@@ -27,7 +27,7 @@ const Home = () => {
             <Button
               text={"Resume"}
               link={
-                "https://drive.google.com/file/d/1pzT_V3rpB2ez6tqj9FzrL8O_G7EPG4G3/view?usp=sharing"
+                "https://drive.google.com/file/d/10fR3YDHcanOdHrnNXoF2gV6eZmBmltCh/view?usp=sharing"
               }
               targetPage={"_blank"}
             />
