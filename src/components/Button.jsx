@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Button.module.css";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Rishabh_Tripathi_Resume.pdf";
 
 const Button = () => {
   return (

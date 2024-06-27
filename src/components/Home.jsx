@@ -8,6 +8,7 @@ import Project from "./Project";
 import masys from "../assets/Macys.png";
 import jscalc from "../assets/calculator.png";
 import weather from "../assets/weather.png";
+import quest from "../assets/quest.png";
 
 const Home = () => {
   return (
@@ -50,6 +51,7 @@ const Home = () => {
           github={"https://github.com/rishabh0com/JS_Calculator"}
           live={"https://jscalculator0com.netlify.app/"}
         />
+
         <Project
           techStack={["HTML", "CSS", "Javascript", "Open Weather API"]}
           title={"Weather Forecast App"}
@@ -61,6 +63,17 @@ const Home = () => {
           live={"https://weather-forecast-app-0723.netlify.app"}
         />
         <Project
+          techStack={["React", "Tailwind CSS","Responsive Web Design"]}
+          title={"Quest AI Clone"}
+          imgSrc={quest}
+          summary={
+            "A Quest.ai clone using React, Tailwind, HTML, CSS, and React Router DOM, featuring responsive design and great UI."
+          }
+          github={"https://github.com/rishabh0com/weather_app/tree/master"}
+          live={"https://weather-forecast-app-0723.netlify.app"}
+        />
+
+        <Project
           techStack={[
             "ReactJs",
             "NodeJs",
@@ -71,13 +84,13 @@ const Home = () => {
             "Logout",
             "Cart",
           ]}
-          title={"Mcay's Ecommerce Clone"}
+          title={"Mcay's Ecommerce"}
           imgSrc={masys}
           summary={
             "A Macy's eCommerce clone created using the MERN stack, featuring user authentication, product catalog, shopping cart, and responsive layout"
           }
-          github={"https://github.com/rishabh0com/server_macysEcommerce"}
-          live={"https://client-macys-ecommerce.vercel.app"}
+          github={"https://github.com/rishabh0com/QuestLab_Clone"}
+          live={"https://quest-ai-clone.vercel.app/"}
         />
       </div>
       <div className={styles.contact}>
