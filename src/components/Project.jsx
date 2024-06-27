@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Project.module.css";
 
-const Project = ({ imgSrc, title, techStack,github,live }) => {
+const Project = ({ imgSrc, title, techStack,github,live,summary }) => {
   const Vertical = () => {
     return (
       <div
@@ -32,6 +32,9 @@ const Project = ({ imgSrc, title, techStack,github,live }) => {
           </div>
         </div>
         <h2>{title}</h2>
+        <div className={styles.summary}>
+          {summary}
+        </div>
         <div className={styles.techStack}>
           {techStack.map((ele, index) => (
             <div

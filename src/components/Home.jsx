@@ -24,13 +24,7 @@ const Home = () => {
             <p>Hey 👋, I' m</p>
             <p>Rishabh Tripathi</p>
             <p>Full Stack Engineer.</p>
-            <Button
-              text={"Resume"}
-              link={
-                "https://drive.google.com/file/d/10fR3YDHcanOdHrnNXoF2gV6eZmBmltCh/view?usp=sharing"
-              }
-              targetPage={"_blank"}
-            />
+            <Button />
           </div>
         </div>
         <div className={styles.mainright}>
@@ -50,6 +44,9 @@ const Home = () => {
           techStack={["HTML", "CSS", "Javascript", "DOM"]}
           title={"JS Calculator"}
           imgSrc={jscalc}
+          summary={
+            "A responsive JavaScript Calculator built with HTML, CSS, and JS, featuring basic arithmetic operations and clear/backspace functionality."
+          }
           github={"https://github.com/rishabh0com/JS_Calculator"}
           live={"https://jscalculator0com.netlify.app/"}
         />
@@ -57,6 +54,9 @@ const Home = () => {
           techStack={["HTML", "CSS", "Javascript", "Open Weather API"]}
           title={"Weather Forecast App"}
           imgSrc={weather}
+          summary={
+            "A Weather App providing live weather updates and a three-day forecast, built with HTML, CSS, and JavaScript for a responsive design."
+          }
           github={"https://github.com/rishabh0com/weather_app/tree/master"}
           live={"https://weather-forecast-app-0723.netlify.app"}
         />
@@ -73,6 +73,9 @@ const Home = () => {
           ]}
           title={"Mcay's Ecommerce Clone"}
           imgSrc={masys}
+          summary={
+            "A Macy's eCommerce clone created using the MERN stack, featuring user authentication, product catalog, shopping cart, and responsive layout"
+          }
           github={"https://github.com/rishabh0com/server_macysEcommerce"}
           live={"https://client-macys-ecommerce.vercel.app"}
         />

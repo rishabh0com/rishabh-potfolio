@@ -1,11 +1,14 @@
 import React from "react";
 import styles from "../styles/Button.module.css";
+import resume from "../assets/resume.pdf";
 
-const Button = ({ text,link,targetPage }) => {
+const Button = () => {
   return (
-    <a href={link} target={targetPage}>
-      {" "}
-      <button className={styles.container}>{text}</button>
+    <a
+      download={resume}
+      href={resume}
+      target="_blank">
+      <button className={styles.container}>Resume</button>
     </a>
   );
 };

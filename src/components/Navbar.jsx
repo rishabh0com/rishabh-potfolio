@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className={styles.right}>
         {screen > 768 ? (
-          <Button text={`Contact Me `} link={"#contact"} targetPage={""} />
+          <Button          />
         ) : (
           <span onClick={handleDisplay} className={styles.hamburger}>
             <i class="ri-menu-4-fill"></i>
